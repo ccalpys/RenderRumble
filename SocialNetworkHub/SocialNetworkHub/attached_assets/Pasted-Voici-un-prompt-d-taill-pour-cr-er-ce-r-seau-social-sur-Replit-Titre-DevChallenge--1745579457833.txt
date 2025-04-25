@@ -1,0 +1,60 @@
+Voici un prompt détaillé pour créer ce réseau social sur Replit :
+
+---
+
+**Titre : DevChallenge - Réseau Social de Compétitions Créatives en Temps Réel**
+
+**Concept :**  
+Une plateforme où les utilisateurs s'affrontent en 1v1 ou en équipe pour créer le meilleur contenu (design, code, montage vidéo...) sur un thème/logiciel imposé, avec un système de vote communautaire pondéré.
+
+**Features Clés :**
+
+1. **Mode Compétitif :**  
+   - Choix de matchs (thème + logiciel imposé ex: "Créer un logo space-themed sur Figma en 45min")  
+   - Formats : 1v1, 2v2, Battle Royale (4+ joueurs)  
+   - Classements ELO par catégorie (Graphisme, Code, Video...)  
+   - Tournois hebdomadaires avec récompenses (badges, skins de profil)
+
+2. **Arène Créative :**  
+   - Éditeur intégré (ou connexion à Replit/Figma/Adobe)  
+   - Timer visible + alerte dernière minute  
+   - Capture automatique des versions finales  
+
+3. **Zone de Vote TikTok-like :**  
+   - Feed vertical swipeable avec face-à-face des créations  
+   - Système de votes :  
+     - ❤️ Like Standard (1 point, illimité)  
+     - 💎 Double Like (5 points, 3x/jour)  
+     - 🌟 Coup de Coeur (20 points, 1x/jour)  
+   - Barre de progression en temps réel  
+   - Commentaires réactifs avec emotes spéciaux  
+
+4. **Profil Gamer :**  
+   - Stats détaillées (Win Rate, Top 3 Logiciels...)  
+   - Collection de skins/decos unlockables  
+   - Historique des matchs avec replay  
+   - Système de clans/guildes collaboratives  
+
+5. **Anti-Triche :**  
+   - Vérification de l'originalité (AI)  
+   - Vote pondéré par la réputation  
+   - Signalement communautaire  
+
+**Stack Technique :**  
+- Front : React + Three.js (animations) + Video.js  
+- Back : Node.js/Express + WebSocket (temps réel)  
+- DB : PostgreSQL + Redis (classements)  
+- Replit : Déploiement + collaboration en live coding  
+- Intégrations : OAuth2 (login via GitHub/Google), Replit API  
+
+**Monétisation :**  
+- Abonnement premium (double likes illimités, thèmes exclusifs)  
+- Achat de boosters (extra time, thèmes cachés)  
+- Sponsoring de marques (logiciels partenaires)  
+
+**Inspirations :**  
+- TikTok (UI voting) + Figma Community + CodeWars + Twitch Rivals  
+
+---
+
+Ce prompt combine mécaniques de gaming, création UX/UI et algorithmes sociaux. Les défis techniques majeurs seraient le système de vote en temps réel et l'intégration fluide des logiciels créatifs. À adapter selon les capacités de l'équipe ! 🚀
